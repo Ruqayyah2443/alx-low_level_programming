@@ -3,7 +3,7 @@
 /**
  * main - print the alphabet in lowercase and then uppercase
  *
- * Return: Always 0 (succes)
+ * Return: Always 0
  */
 
 int main(void)
@@ -22,6 +22,7 @@ int main(void)
 	while (j < 91)
 	{
 		putchar (j);
+		j++;
 	}
 
 	putchar (10);
