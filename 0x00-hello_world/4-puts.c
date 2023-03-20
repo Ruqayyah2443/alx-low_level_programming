@@ -3,8 +3,9 @@
 /**
  * main - this ia the main function
  *
- * Return
- * : always 0
+ * Description: print programming is like building a multilingual puzzle
+ *
+ * Return: always 0
  */
 
 int main(void)
