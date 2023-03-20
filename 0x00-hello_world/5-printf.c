@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - prints with proper grammar
  *
- * Description: prints with proper grammer, but the outcome is a piece of
- * art
- *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
