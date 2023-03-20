@@ -3,7 +3,8 @@
 /**
  * main - entry point
  *
- * Description: prints with proper grammer, but the outcome is a piece of art
+ * Description: prints with proper grammer, but the outcome is a piece of
+ * art
  *
  * Return: Always 0
  */
