@@ -2,11 +2,12 @@
 
 /**
  * print_putchar - print all alphabet in lowercase
+ * Description; print all alphabet in lower case
  */
 
 void print_alphabet(void)
 {
-	char ietter;
+	char letter;
 
 	for (letter = 'a' ; letter <= 'z'; letter++)
 		_putchar(letter);
