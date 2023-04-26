@@ -2,17 +2,23 @@
 
 /**
  * print_putchar_x10 - function that print 10x alphabets
- * Return: Always 0
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-	int i;
-	char j:
+	int round = 0;
+	char letter = 'a';
 
-	for (i = 1 ; i <= 10 ; i++)
+	while (round < 10)
 	{
-		for (j = 'a' ; j <= 'z'  j++)
-			_putchar(j);
+		letter = 'a';
+		while (letter <= 'z')
+		{
+			_putchar(letter)
+			letter++;
+		}
 		_putchar('\n');
+
+		round++;
 	}
 }
