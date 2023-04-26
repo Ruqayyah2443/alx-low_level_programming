@@ -1,15 +1,18 @@
 #include "main.h"
 
 /**
- * print_putchar - print all alphabets in lowercase
+ * print_putchar_x10 - function that print 10x alphabets
+ * Return: Always 0
  */
-
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	char letter;
+	int i;
+	char j:
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+	for (i = 1 ; i <= 10 ; i++)
+	{
+		for (j = 'a' ; j <= 'z'  j++)
+			_putchar(j);
+		_putchar('\n');
+	}
 }
